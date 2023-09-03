@@ -1,0 +1,18 @@
+.badge {
+  display: inline-block;
+  width: max-content;
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+.badge.primary {
+  color: white;
+  background: var(--theme-1-primary, #4b6bfb);
+}
+.badge.secondary {
+  color: var(--theme-1-primary, #4b6bfb);
+  background: var(--theme-1-secondary, rgba(75, 107, 251, 0.05));
+}

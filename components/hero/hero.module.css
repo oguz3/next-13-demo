@@ -1,0 +1,31 @@
+.wrapper {
+  border-radius: 12px;
+  padding: 40px;
+  height: 450px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  backgrorund-position: center;
+  background-size: cover;
+}
+
+.content .title {
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 40px;
+  margin: 16px 0px 24px 0px;
+}
+
+.user_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.date {
+  margin-left: 20px;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+}

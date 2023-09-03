@@ -1,0 +1,120 @@
+.container {
+  padding-top: 64px;
+  border-top: 1px solid var(--secondary-100, #e8e8ea);
+  background: var(--secondary-50, #f6f6f7);
+}
+
+.top {
+  display: flex;
+  padding-bottom: 64px;
+}
+.about {
+  max-width: 289px;
+  width: 100%;
+}
+.about .title {
+  color: var(--secondary-800, #181a2a);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 12px;
+}
+.about .detail {
+  color: var(--secondary-500, #696a75);
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.about .contact {
+  color: var(--secondary-600, #3b3c4a);
+  font-size: 16px;
+  line-height: 24px;
+}
+.about .contact b {
+  color: var(--secondary-800, #181a2a);
+  font-weight: 600;
+}
+.nav {
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.nav .nav_list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  list-style: none;
+}
+.list_title {
+  color: var(--secondary-800, #181a2a);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+.list_item {
+  margin-bottom: 8px;
+}
+.list_item a {
+  color: var(--secondary-600, #3b3c4a);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.nav_list:first-child {
+  margin-right: 80px;
+}
+.newsletter {
+  max-width: 392px;
+  width: 100%;
+}
+
+.bottom {
+  border-top: 1px solid var(--secondary-200, #dcdddf);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 0px;
+}
+.bottom .logo {
+  display: flex;
+  align-items: center;
+}
+.bottom .logo .logo_text {
+  margin-left: 10px;
+}
+.bottom .logo .logo_text h5 {
+  color: var(--secondary-900, #141624);
+  font-size: 20px;
+  line-height: 28px;
+}
+.bottom .logo .logo_text h5 b {
+  font-weight: 800;
+}
+.bottom .logo .logo_text p {
+  color: var(--secondary-900, #141624);
+  font-size: 16px;
+  line-height: 24px;
+}
+.bottom .logo .logo_text p span {
+  color: var(--secondary-600, #3b3c4a);
+}
+.bottom_nav {
+  display: flex;
+  align-items: center;
+}
+.bottom_nav a {
+  color: var(--secondary-600, #3b3c4a);
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
+.bottom_nav a:not(:last-child) {
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid var(--secondary-200, #dcdddf);
+}

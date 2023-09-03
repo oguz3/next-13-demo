@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 12px;
+}
+
+.wrapper.primary .name {
+  color: white;
+}
+.wrapper.secondary .name {
+  color: var(--secondary-400, #97989f);
+}

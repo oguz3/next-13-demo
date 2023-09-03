@@ -1,0 +1,24 @@
+.newsletter {
+  padding: 32px;
+  border-radius: 12px;
+  background: white;
+}
+.newsletter h5 {
+  color: var(--secondary-800, #181a2a);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.newsletter p {
+  color: var(--secondary-500, #696a75);
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+}
+.form {
+  margin-top: 30px;
+}
+.input {
+  margin-bottom: 8px;
+}
