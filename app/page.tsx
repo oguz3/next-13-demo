@@ -36,7 +36,9 @@ export default async function Home() {
         date={firstArticle.publishedAt}
       />
 
-      <a href="http://localhost:3000/register"> Go to app </a>
+      <a href="https://live-chat-ai-web-git-feature-sc-15843posthog-3a3dd1-popupsmart.vercel.app/register">
+        Go to app
+      </a>
 
       <CardWrapper className="mt-48">
         {restArticles.map((article, index) => (
